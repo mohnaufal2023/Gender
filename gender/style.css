@@ -1,0 +1,49 @@
+*, html, body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+}
+
+/* top */
+.title {
+    background-color: rgb(255, 0, 195);
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: 400;
+    padding: 8px 0;
+}
+
+/* body position */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}
+
+/* full div */
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+/* font input name */
+.container label {
+    font-size: 12px;
+}
+
+/* placeholder */
+.container input { 
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 16px 8px;
+    font-size: 18px;
+}
